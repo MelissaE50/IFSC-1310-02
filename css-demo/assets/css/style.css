@@ -13,9 +13,61 @@ html {
   /*  ---------------Global Styles-----------------  */
 
 body{
-    background-color: cadetblue;
-    font-family: "Mulish", sans-serif;
+    background-color: #AEBFBE;
+    font-family: "Playfair Display", serif;
+    margin:0;
 }
 header.primary{
-background:red;
+background: #D7D9D7;
+color:#ffffff;
+text-shadow: 1px 1px#000000;
+/*long form */
+padding-top: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-left: 40px;
+
+/*single value shorthand*/
+padding: 40px;
+
+/* T,R, B, L (clockwise from the top)*/
+padding: 20px 40px 20px 40px;
+/* Two value Top/Bottom / L/R */
+padding: 20px 40px;
+text-align: center; /*left, right, center, justified*/
+}
+
+header.primary h1{
+  font-size: 2.4rem;
+  margin:20px 000;
+}
+header.primary h1 a{
+  color: #ffffff;
+  text-decoration: none;
+}
+header.primary h2{
+  font-size:1.4rem;
+  margin:0;
+}
+nav.primary{}
+nav.primary ul{
+  padding:10px 0 0 0;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+nav.primary ul li{
+  list-style-type: none;
+}
+nav.primary ul li a{
+  color:#ffffff;
+  text-decoration: none;
+  border:1px solid #798c8c;
+  padding: 7.5px 10px; /*top, right, bottom, left*/
+  border-radius: 20px;
+  background-color: rgba(0,0,0, .4);
+  transition:0.4s;
+}
+nav.primary ul li a:hover{
+  background-color: rgba(0,0,0, .8); /*darkens button when hovered over*/
 }
