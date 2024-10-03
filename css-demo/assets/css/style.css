@@ -102,9 +102,27 @@ nav.primary ul li a:hover{
   display:flex;
   flex-direction: row;
   justify-content: space-around;
+  gap:2rem;
 }
 
+#content article.post{
+  box-shadow: 0 4px 8px rgba(0,0,0, .6);
+  padding:10px;
+  border-radius:4px;
+  font-size:.8rem;
+}
 
+time.post-date, figcaption{
+  text-transform:uppercase;
+  color:#ccc;
+}
+
+#content a{
+  color:#D7D9D7;
+}
+#content article.post figure{
+  margin:0;
+}
 
 /*---------------- Media Queries-------------*/
 
