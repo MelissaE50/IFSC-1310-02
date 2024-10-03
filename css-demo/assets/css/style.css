@@ -71,3 +71,25 @@ nav.primary ul li a{
 nav.primary ul li a:hover{
   background-color: rgba(0,0,0, .8); /*darkens button when hovered over*/
 }
+
+
+
+
+
+
+/*---------------- Media Queries-------------*/
+
+@media screen and (max-width:600px){
+
+  nav.primary ul{
+    flex-direction:column;
+    gap:10px;
+    max-width:250px;
+    margin:10px auto;
+  }
+  nav.primary ul a{
+    display:block;
+  }
+
+
+}
