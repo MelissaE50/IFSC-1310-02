@@ -23,6 +23,32 @@ html {
     max-width: 960px;
     margin:40px auto;
   }
+
+  .img-right {
+    float:right;
+    margin:10px 0 10px 20px;
+    border:1px solid #ccc;
+    padding:5px;
+    border-radius:50px;
+  }
+
+  .img-left {
+    float:left;
+    margin:10px 0 10px 20px;
+    border:1px solid #ccc;
+    padding:5px;
+    border-radius:50px;
+  }
+
+  .img-center {
+    display:block;
+    margin:20px auto;
+    margin:10px 0 10px 20px;
+    border:1px solid #ccc;
+    padding:5px;
+    border-radius:50px;
+  }
+
   
   /*  ---------------Global Styles-----------------  */
 
@@ -130,6 +156,57 @@ time.post-date, figcaption{
 #content article.post figure{
   margin:0;
 }
+ #practice h2{
+  color:#D7D9D7;
+  border-bottom: 1pz dotted grey;
+ }
+
+#practice a{
+  color:#D7D9D7;
+}
+
+#practice a:hover{
+  text-decoration:none;
+  transition: .4s;
+}
+
+#practice h3{
+  border-left:7.5px solid grey;
+  padding:3.5px 10px;
+}
+
+table{
+  width:100%;
+  border:1px solid grey;
+  margin:20px 0;
+  border-collapse:collapse;
+}
+caption{
+  font-weight:bold;
+  margin:10px;
+}
+tr:nth-child(even){
+ background-color: rgba(0,0,0,0.1);
+}
+
+tr:hover{
+  background-color: rgba(0,0,0,0.4);
+}
+
+th{
+  background-color: #59554c;
+  color:#ffffff;
+  padding:7.5px;
+}
+td{
+  border:1px solid #cccccc;
+  padding:5px;
+}
+
+td:nth-child(n + 2){
+  text-align:right;
+}
+
 
 aside[role="complementary"]{
   background-color:#172635;
