@@ -217,7 +217,93 @@ section#articles h2 {
   margin-bottom: 20px;
 }
 
+/*-------Liftoff----------*/
+#takeoff {
+padding: 4em 0;
+}
 
+/*-------Aside----------*/
+aside[role="complementary"] {
+  background-color:#DDE5ED;
+  color:#092A48;
+  padding:2.5em;
+}
 
+aside .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+aside article.widget {
+  width: 40%;
+}
+
+.widget.overview table {
+  font-size: 0.7em;
+  border-collapse: collapse;
+}
+
+.widget.overview table td {
+border-bottom: 1px solid #092A48;
+}
+
+.widget.overview table td:nth-child(even) {
+  text-align: right;
+}
+aside article a:link,
+aside article a:visited {
+  color: #ffffff;
+  display: block;
+  margin-top: 1.2em;
+  letter-spacing: 1.2px;
+}
+
+aside article a:hover,
+aside article a:active {
+  text-decoration: none;
+}
+
+aside article footer {
+  display: none;
+}
+
+/*------ Footer ------*/
+
+footer#colophon {
+  background-color: #092A48;
+}
+
+#colophon h6 {
+  padding: 20px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+#colophon h6 a:link,
+#colophon h6 a:visited {
+  color: #1193D1;
+}
 
 /*--------Media Queries----------*/
+@media screen and (max-width:600px){
+
+  nav.primary ul{
+    flex-direction:column;
+    gap:10px;
+    max-width:250px;
+    margin:10px auto;
+  }
+  nav.primary ul a{
+    display:block;
+  }
+}
+
+@media screen and (max-width:450px){
+  #content{
+    flex-direction:column;
+  }
+}
