@@ -144,6 +144,7 @@ header.primary nav a:active {
   background-color: #A6BBC8;
 }
 
+
 /*--------Articles----------*/
 section#articles {
   background:#A6BBC8;
@@ -217,10 +218,20 @@ section#articles h2 {
   margin-bottom: 20px;
 }
 
-/*-------Liftoff----------*/
+/*-------Independent Image Specs----------*/
 #takeoff {
 padding: 4em 0;
 }
+
+#crew {
+  padding: 4em 0;
+  }
+
+#dragonlab {
+  padding: 4em 0;
+  }
+
+  
 
 /*-------Aside----------*/
 aside[role="complementary"] {
