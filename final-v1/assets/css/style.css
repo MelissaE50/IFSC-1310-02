@@ -277,6 +277,10 @@ aside article a:active {
 aside article footer {
   display: none;
 }
+.table{
+  width: 100%;
+  table-layout: fixed;
+}
 
 /*------ Footer ------*/
 
