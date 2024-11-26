@@ -231,8 +231,6 @@ padding: 4em 0;
   padding: 4em 0;
   }
 
-  
-
 /*-------Aside----------*/
 aside[role="complementary"] {
   background-color:#DDE5ED;
@@ -249,6 +247,7 @@ aside .container {
 aside article.widget {
   width: 40%;
 }
+
 
 .widget.overview table {
   font-size: 0.4;
