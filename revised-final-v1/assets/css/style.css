@@ -153,9 +153,26 @@ section#content {
   text-align: justify;
   padding: 10px 32px;
   border-radius: 10px;
+  border-top: 20px solid #ffffff;
   border-bottom: 1px solid #092A48;
 }
-
+section#weather {
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border-bottom: 1px solid #ffffff;
+  border-top: 20px solid #ffffff;
+}
+section#faq, #contact {
+  display:block;
+  color: #020c14;
+  background-color: #cbd1d4;
+  text-align: justify;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border-bottom: 1px solid #092A48;
+  border-top: 20px solid #ffffff;
+}
 /*--------Articles----------*/
 section#articles {
   background:#A6BBC8;
@@ -170,7 +187,7 @@ section#articles .container {
   padding: 2.6rem 0;
 }
 section#articles h2,
-#content h2 {
+#content h2, #faq h2 {
   flex: 0 0 100%;
   color: #33536b;
   text-shadow: 1px 1px #000000;
