@@ -144,6 +144,17 @@ header.primary nav a:active {
   background-color: #A6BBC8;
 }
 
+/*--------Content----------*/
+
+section#content {
+  display:block;
+  color: #020c14;
+  background-color: #A6BBC8;
+  text-align: justify;
+  padding: 10px 32px;
+  border-radius: 10px;
+  border-bottom: 1px solid #092A48;
+}
 
 /*--------Articles----------*/
 section#articles {
@@ -162,6 +173,7 @@ section#articles h2,
 #content h2 {
   flex: 0 0 100%;
   color: #33536b;
+  text-shadow: 1px 1px #000000;
   text-align: center;
   font-family: "Slabo 27px", serif;
   font-size: 2em;
@@ -261,22 +273,7 @@ border-bottom: 1px solid #092A48;
 .widget.overview table td:nth-child(even) {
   text-align: right;
 }
-aside article a:link,
-aside article a:visited {
-  color: #ffffff;
-  display: block;
-  margin-top: 1.2em;
-  letter-spacing: 1.2px;
-}
 
-aside article a:hover,
-aside article a:active {
-  text-decoration: none;
-}
-
-aside article footer {
-  display: none;
-}
 .table{
   width: 100%;
   table-layout: fixed;
