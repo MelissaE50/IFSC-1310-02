@@ -43,7 +43,7 @@ img{
 
 .img-left {
   float:left;
-  margin:10px 20 px 10px 0px;
+  margin:10px 20px 10px 0px;
   border:1px solid #ccc;
   padding:5px;
   border-radius:50px;
@@ -173,6 +173,7 @@ section#faq, #contact {
   border-bottom: 1px solid #092A48;
   border-top: 20px solid #ffffff;
 }
+
 /*--------Articles----------*/
 section#articles {
   background:#A6BBC8;
@@ -252,6 +253,10 @@ section#articles h2 {
 padding: 4em 0;
 }
 
+ .crew {
+  width: 100px;
+  border-radius: 10px;
+}
 #crew {
   padding: 4em 0;
   }
