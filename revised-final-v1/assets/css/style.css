@@ -277,7 +277,7 @@ aside article.widget {
   width: 40%;
 }
 
-
+/*------Tables------*/
 .widget.overview table {
   font-size: 0.4;
   border-collapse: collapse;
@@ -300,7 +300,7 @@ td {
   padding-right: 1em;
 }
 
-/*------ Footer ------*/
+/*------Footer------*/
 
 footer#colophon {
   background-color: #092A48;
