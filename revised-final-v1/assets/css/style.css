@@ -295,6 +295,10 @@ border-bottom: 1px solid #092A48;
   width: 100%;
   table-layout: fixed;
 }
+td {
+  padding: 0.5em;
+  padding-right: 1em;
+}
 
 /*------ Footer ------*/
 
