@@ -73,7 +73,7 @@ header.primary{
 
 header.primary::before {
 content: "";
-background-image: url("/final-v1/assets/img/SpaceX-Cover-Photo.jpg");
+background-image: url("/revised-final-v1/assets/img/SpaceX-Cover-Photo.jpg");
 background-size: cover;
 position: absolute;
 top: 0px;
@@ -184,6 +184,7 @@ section#articles .container {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 20px;
   border-bottom: 1px solid #092A48;
   padding: 2.6rem 0;
 }
@@ -203,7 +204,7 @@ section#articles h2 {
 }
 
 #articles article.post {
-  width: 30%;
+  width: calc(33.333% - 14px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   padding: 10px;
   transition: .4s;
