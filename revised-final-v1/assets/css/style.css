@@ -183,6 +183,7 @@ section#articles .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
   flex-wrap: wrap;
   gap: 20px;
   border-bottom: 1px solid #092A48;
@@ -202,6 +203,25 @@ section#articles h2 {
   color:#ffffff;
   text-shadow: 1px 1px #000000;
 }
+
+/* Ensure images stay within containers */
+#contact img,
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Fix form field widths */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 #articles article.post {
   width: calc(33.333% - 14px);
@@ -327,6 +347,14 @@ footer#colophon {
 }
 
 /*--------Media Queries----------*/
+
+/* Adjust container for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90vw;
+    padding: 0 15px;
+  }
+}
 @media screen and (max-width:600px){
 
   nav.primary ul{
